@@ -72,37 +72,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Para executar o projeto via Docker:
 
-npm install
-
-# Consultando pagamento via requisição HTTP(https://developer.paypal.com/api/rest/)
-
-post: 
-https://api-m.sandbox.paypal.com/v1/oauth2/token
-auth, basic: 
-AS_tOgLB-E5-bTxGpyktewa3y2kO1zMsu-7607BiSEt3vHMlFbeYT0M07qnZK08FtIQmfn68wxcnlT9h
-EDvnPPWGGnmv-aqWhNXvGuMF5Gbs1Byd0owRWu2skyRgek5Yfe-edAi4L_ap0KenxkiA9V74x7axUlqN
-body,formencode
-grant_type
-client_credentials
-
-Colocar o token no auth,bearer
-get:
-https://api-m.sandbox.paypal.com/v1/payments/payment
-
-Conta de comprador e dev:
-sandbox.paypal.com/signin
-https://developer.paypal.com/dashboard/accounts
-
-
-# Criar um arquivo com nome "Dockfile" e colocar os arquivos de imagem base e local
-FROM nginx
-COPY build /usr/share/nginx/html
-
-# Construir uma imagem
-
 docker build -t integracao-paypal-nginx .
-
-# Construir um container
-
 docker run -d -p 8280:80 integracao-paypal-nginx
+
+## Equipe Desenvolvedora
+https://github.com/joseMarcus
+https://github.com/Renan-Thierry
+https://github.com/WandersonCesar14
 
