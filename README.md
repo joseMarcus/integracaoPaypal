@@ -77,6 +77,6 @@ docker run -d -p 8280:80 integracao-paypal-nginx
 
 ## Equipe Desenvolvedora
 José Marcus: https://github.com/joseMarcus \
-Renan Thierry: (https://github.com/Renan-Thierry)\
-Wanderson César: (https://github.com/WandersonCesar14)
+Renan Thierry: https://github.com/Renan-Thierry \
+Wanderson César: https://github.com/WandersonCesar14
 
