@@ -72,11 +72,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Para executar o projeto via Docker:
 
-docker build -t integracao-paypal-nginx .
+docker build -t integracao-paypal-nginx .\
 docker run -d -p 8280:80 integracao-paypal-nginx
 
 ## Equipe Desenvolvedora
-https://github.com/joseMarcus
-https://github.com/Renan-Thierry
-https://github.com/WandersonCesar14
+José Marcus: https://github.com/joseMarcus\
+Renan Thierry: https://github.com/Renan-Thierry\
+Wanderson César: https://github.com/WandersonCesar14
 
